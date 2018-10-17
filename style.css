@@ -20,8 +20,42 @@
   clear: both
 }
 
-.container {
+/* Elementi */
+#container {
+  padding: 50px 0;
   width: 100vw;
   height:100vh;
   background: url('images/default-pattern.png')
+}
+
+#content {
+  width: 85%;
+  height: 700px;
+  margin: 0 auto;
+  background: yellow;
+}
+
+.picAndNav {
+  width: 100%;
+  height: 40%;
+  background: blue
+
+}
+
+.picAndNav > img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-pic {
+  width: 100%;
+  height: 80%;
+  border: 15px solid white;
+  background: green;
+}
+
+.columns-container {
+  width: 100%;
+  height: 60%;
+  background: red
 }
