@@ -1,0 +1,60 @@
+
+.fl_l {
+  float: left;
+}
+
+.fl_r {
+  float: right;
+}
+
+.cl_b {
+  clear: both
+}
+
+.bg-white {
+  background: white;
+}
+.uppercased {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold
+}
+
+.fontSize1_5vW {
+  font-size: 1.5vw;
+}
+
+.rightBordered {
+  border-right: 1px solid black
+}
+
+.marginBottom25 {
+  margin-bottom: 25px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.paddingX5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.paddingY5 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.paddingTop5 {
+  padding-top: 5%;
+}
+.h100 {
+  height: 100%
+}
