@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Wordpress Theme</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="mystrap.css">
     <link rel="stylesheet" href="style.css">
   </head>
+  <!-- Nota per il passante: Si vede che vengo da bootstrap, mi mancano diverse cose e sto provando a convertire il modo di pensare. In questo esercizio ho palesemente divagato e mi rendo conto di essermi complicato la vita in modi particolari, specialmente per rendere tutto semi-responsive. Sarà molto utile vedere il vostro rifacimento e bisogna sicuramente fare le cose meglio. Lascio le seguenti cose da fixare a favore di una revisione della lezione odierna.
+  In particolare per:
+  - centraggio elementi nella nav.
+  - modo migliore per spaziare il container delle colonne dal resto. Ho fatto una spaziatura che funziona ma già so che non va affatto bene anzi. l'avrei dovuta fare sul div "columns container"
+  - uso di clearfix. Ho messo sempre overflow-auto o hidden
+  -ho messo il widget recent posts scrollabile ma ho visto che lo farei scrollare il giusto solo con dei magheggi quindi lo lascio così per mancata padronanza(non credo fosse neanche necessario farlo scrollare)
+  -->
   <body>
     <div id="container">
       <div id="content">
@@ -17,7 +26,7 @@
           <nav>
             <div class="links-container">
               <div class="link rightBordered">
-                <label class="uppercased bold fontSize1_5vW">nome</label>
+                <label class="uppercased bold fontSize1_5vW">home</label>
               </div>
               <div class="link rightBordered">
                 <label class="uppercased bold fontSize1_5vW">about</label>
@@ -61,7 +70,7 @@
           <div class="column">
             <div class="content-container paddingX5">
               <div class="main-content bg-white h100 overflow-hidden">
-                <h1 class="paddingX5 paddingY5">THREE COLUMN</h1>
+                <h1 class="paddingX5 paddingY5 shadowed">THREE COLUMN</h1>
                   <p class="paddingX5 paddingTop5">A versatile multi-purpose business and blogging theme with a natural and earthy design. Natural Lite is perfect for craftsmen or retailers of natural products, environmental organizations and more. It's a great website solution for promoting a green lifestyle; makers of handmade jewelry; organic gardening; ecotourism; nature tours; homemade cooking recipes; hiking; adventures and more.</p>
                   <p class="paddingX5 paddingTop5">A versatile multi-purpose business and blogging theme with a natural and earthy design. Natural Lite is perfect for craftsmen or retailers of natural products, environmental organizations and more. It's a great website solution for promoting a green lifestyle; makers of handmade jewelry; organic gardening; ecotourism; nature tours; homemade cooking recipes; hiking; adventures and more.</p>
               </div>
